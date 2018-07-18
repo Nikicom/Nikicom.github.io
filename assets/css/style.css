@@ -1,0 +1,92 @@
+ /* *{
+ margin: 0;
+ padding: 0;
+}    */
+
+ nav {
+   align-items: center;  
+     
+ }
+nav ul{
+
+    list-style: none;
+}
+
+nav ul li{
+  
+      display: inline;
+      background-color: mediumorchid;
+      align-items: flex-end;
+      padding: 4px;
+}
+
+nav ul li a {
+    color: gold; 
+    text-decoration: none;
+
+}
+.mh{
+  margin: 15px;   
+}
+
+#Home{
+    width: 50%;
+    background-color: rgb(226, 226, 162);
+    float: left;
+    padding: 25px;
+    height: 400px;
+    max-height:300px;  
+    overflow: auto;
+
+}
+#something {
+    width: 40%;
+    height: 400px;
+    max-height:300px;  
+    overflow: auto;
+    background-color: rgb(226, 226, 162); 
+    float: right; 
+    padding: 25px;    
+
+}
+h3{
+    color: rgb(145, 60, 224);
+}
+
+section {
+    display: inline-block;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+img{
+    width: 180px;
+}  
+#Marketing{
+   float: right;
+    
+}
+.fc{
+    text-align: center;
+}
+footer{
+    background-color: rgb(182, 129, 231);
+    padding: 15px;
+}
+.rightarticle{
+    width: 40%
+}
+.address , .email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 35%;
+}
+
+
+#map{
+    width: 50%;
+    height: 100px;
+    float: right;
+}
